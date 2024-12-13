@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Questão 04</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <ul class="left">
+        <li id="liAdd">➕</li>
+      </ul>
+      <div class="right">
+        <form class="recipe-form" style="display: none;">
+          <div class="form-group-inline">
+            <label for="recipe-title"
+              >Título da Receita:<br>
+              <input
+                type="text"
+                id="recipe-title"
+                name="recipe-title"
+                placeholder="Digite o título da receita"
+            /></label>
+            <button type="button" id="btnDeletar">Deletar</button>
+          </div>
+
+          <div class="form-group">
+            <label for="ingredients">Ingredientes:</label>
+            <textarea
+              id="ingredients"
+              name="ingredients"
+              placeholder="Liste os ingredientes"
+            ></textarea>
+          </div>
+
+          <div class="form-group">
+            <label for="preparation-method">Modo de Preparo:</label>
+            <textarea
+              id="preparation-method"
+              name="preparation-method"
+              placeholder="Descreva o modo de preparo"
+            ></textarea>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
